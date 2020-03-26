@@ -56,7 +56,7 @@
                     </div>
                     <div>
                         <img src="assets/donate_header.svg" height="30px">
-                        <form action="" method="POST">
+                        <form method="POST">
 
 
                             <p>
@@ -377,7 +377,7 @@ $json = json_encode($data);
 <script>
 // Checkout details as a json
 var options = <?php echo $json?>;
-
+console.log(options)
 /**
  * The entire list of Checkout fields is available at
  * https://docs.razorpay.com/docs/checkout-form#checkout-fields

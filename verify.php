@@ -48,3 +48,5 @@ else
 }
 
 echo $html;
+echo "{$_POST['razorpay_payment_id']}";
+echo "{$_POST['razorpay_signature']}";
